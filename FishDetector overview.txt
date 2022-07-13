@@ -1,0 +1,12 @@
+﻿A back-end application that when an image is uploaded to the FishingTrip website with one or more fish in the picture, the website returns the predicted quantity of fish and the species, to be checked over by the user before adding to the User’s post. Could also add in a scale that will measure all fish in the image accordingly.
+
+Will attempt to code in the use of CUDA when available, but may mainly set up for CPU only. Also need to implement into the docker container for FishingTrip.
+
+FishDetector Logic:
+
+1. Load image using imageLoader
+2. Find all locations of a fish in the image useing fishFinder
+3. By using fishIDer, identify the species of fish for each fish found
+4. Return array of all fish to user
+
+asdfasdfasdf
